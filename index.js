@@ -12,9 +12,9 @@ app.get('/', async (request, response) => {
 
 });
 
-app.get('/about.html', async (request, response) => {
+app.get('/writing.html', async (request, response) => {
     
-    response.send( await readFile('./about.html', 'utf8'));
+    response.send( await readFile('./writing.html', 'utf8'));
 
 });
 
