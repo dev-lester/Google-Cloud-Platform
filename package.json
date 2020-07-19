@@ -1,12 +1,24 @@
 {
   "name": "NODE",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "node ."
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lester2020/node-gcloud.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lester2020/node-gcloud/issues"
+  },
+  "homepage": "https://github.com/lester2020/node-gcloud#readme",
+  "description": ""
 }
