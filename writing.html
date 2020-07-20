@@ -8,7 +8,7 @@
 </head>
 <style>
     * {
-        margin: 0;
+        /* margin: 0; */
         padding: 0;
         box-sizing: border-box;
     }
@@ -39,11 +39,6 @@
         text-align: left;
     }
 
-    nav {
-        width: 100;
-        padding: 20px;
-        text-align: left;
-    }
     ul {
         margin: 0;
         padding: 0;
@@ -56,7 +51,7 @@
         margin-block-end: 1em;
         margin-inline-start: 0px;
         margin-inline-end: 0px;
-        padding-inline-start: 40px;
+        padding-inline-start: 0px;
     }
 
     #nav-style {
@@ -65,11 +60,14 @@
         margin: 0;
     }
 
-    #nav-style a {
-        margin-left: 10px;
-        border-bottom: 2px solid #ffe100;
-        padding: 4px;
-        cursor: pointer;
+    nav li {
+        list-style: none;
+        display: inline-block;
+        margin: 0;
+    }
+
+    nav a {
+        margin-right: 1rem;
     }
 
     a:hover {
@@ -104,12 +102,33 @@
         margin-inline-start: 0px;
         margin-inline-end: 0px;
     }
+
+    a {
+        color: green;
+    }
+
+    .avatar {
+        width: 7rem;
+        height: 7rem;
+        border-radius: 4rem;
+        margin-right: 1.5rem;
+    }
+
+    .greeting-container {
+        display: flex;
+        padding-top: 2rem;
+    }
+
+    .global-title {
+        font-size: 3rem;
+        color: #222;
+    }
+    
 </style>
 <div id="container">
-    <h1>
+    <h1 class="global-container">
         Lester Sales🙄
     </h1>
-
     <nav>
         <ul>
             <li id="nav-style">
@@ -123,11 +142,12 @@
             </li>
         </ul>
     </nav>
-    <h2>Writing</h2>
     <div>
-        <p>
-            Wait lang guys wala pa akong ma isip nakakapagod mag code🙄
-        </p>
+        <h1>
+            🖨Writing
+        </h1>
+        <h2>Blog</h2>
+        <p>Sup dawg! wala pako maisip na blog post kakagawa ko lang netong website ko hehe</p>
     </div>
     </body>
 
